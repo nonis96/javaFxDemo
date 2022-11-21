@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="559.0" prefWidth="496.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CustomerFormController">
+   <children>
+      <Label alignment="CENTER" layoutX="173.0" layoutY="14.0" prefHeight="33.0" prefWidth="150.0" text="Customer Form" textFill="#2b03bc" underline="true">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="28.0" layoutY="88.0" mnemonicParsing="false" onAction="#btnHelloWorldOnAction" prefHeight="23.0" prefWidth="115.0" style="-fx-background-color: green;" text="Hello World" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <TextField fx:id="txtsomething" layoutX="28.0" layoutY="164.0" prefHeight="33.0" prefWidth="214.0" promptText="type something" />
+      <Button layoutX="292.0" layoutY="165.0" mnemonicParsing="false" onAction="#btnpressOnAction" prefHeight="25.0" prefWidth="76.0" style="-fx-background-color: blue;" text="press" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="382.0" layoutY="484.0" mnemonicParsing="false" onAction="#btnShowOnAction" style="-fx-background-color: blue;" text="Show" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="60.0" layoutY="484.0" mnemonicParsing="false" onAction="#btnHideOnAction" style="-fx-background-color: blue;" text="Hide" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label fx:id="lbljava" alignment="CENTER" layoutX="220.0" layoutY="397.0" prefHeight="31.0" prefWidth="59.0" text="JAVA">
+         <font>
+            <Font name="System Italic" size="26.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
